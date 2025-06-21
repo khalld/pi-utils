@@ -69,10 +69,24 @@ WIP in corso, da risolvere questa problematica quando si vuole usare il raspberr
 
 Guida di riferimento: https://www.youtube.com/watch?v=GZIk_Dl73xo
 
-TODO: da inserire i comandi recuperati dal video precedente
+```bash
+curl -L https://install.pivpn.io | bash
+```
+
+Seguire il procedimento guidato, si consiglia di utilizzare le seguenti configurazioni:
+
+- Abilitare Ipv6
+- Mantenere DHCP
+- Installare Wireguard
+- Use public IP
+
+Comando per generazione qrcode:
+
+```bash
+pivpn -qr
+```
 
 Documentazione wireguard: https://docs.pi-hole.net/guides/vpn/wireguard/server/
-
 
 ## Port forwarding sul router
 
