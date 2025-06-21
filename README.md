@@ -60,12 +60,25 @@ Il seguente comando riavviera il modulo `wlan0` al successivo reboot. Per disabi
 2. Aggiungere la stringa `dtoverlay=disable-wifi` alla fine del file
 3. Riavviare, eseguendo `ip addr` non dovrebbe più essere presente il modulo `wlan0`
 
+### Configurazione DNS 
 
-### Problema utilizzando DHCP
+Consigliato utilizzare il raspberry come DNS del router in modo tale da evitare di dover configurare ogni dispositivo della rete locale e fruire di un adblocker direttamente da ogni dispositivo.
 
-WIP in corso, da risolvere questa problematica quando si vuole usare il raspberry come DHCP al posto del router:
+1. Abilitare DHCP su PiHole (anche Ipv6, consigliato per evitare problemi di lentezza di connessione)
+2. Disabilitare DHCP del router
+3. Configurare DNS del router con l'IP statico del Raspberry Pi
 
+*(NB 21-06-25: In corso test per capire se la configurazione funziona correttamente, in alcuni dispositivi non ho capito perche non agisce correttamente mentre in altri funziona)*
+
+### Problema utilizzando DHCP (NON tramite DNS)
+
+In alcuni router non e' possibile utilizzare il raspberry come DNS, di consguenza si consiglia di utilizzare il raspberry come DHCP e DNS. Tuttavia questo processo non e consigliato inquanto potrebbe causare problemi di connessione (nel mio caso lentezza della banda). Si dovrebbe configurare il router in modo tale che punti come all'IP del raspberry come ed abilitare DHCP su pihole. Una problematica riscontrata e' che l'accesso al router verra' nascosto dal raspberry. Si consiglia di utilizzare il metodo tradizionale per DNS e configurare ogni dispositivo della rete locale puntando l'IP del raspberry come DNS.
+
+Esempio di problema riscontrato utilizzando questo metodo:
+
+```bash
 2025-06-19 22:34:13.790 failed to send UDP request: Network unreachable
+```
 
 ## Configurazione PiVPN e Wireguard
 
