@@ -16,14 +16,16 @@ Si consiglia di eseguirli in ordine in modo tale da arginare eventuali problemat
 
     ![alt text](<imgs/Pasted Graphic 1.png>)
 
+4. Seguire passaggi in: https://www.youtube.com/watch?v=VJtIedYfvSk
+
+WIP: trascrivere i passaggi da eseguire successivamente
 
 ### Video utili
 
 WIP: trascrivere comandi utili recuperati da questi video
 
-https://www.youtube.com/watch?v=qy1_jV1fgJU 
-https://www.youtube.com/watch?v=VJtIedYfvSk
-https://www.youtube.com/watch?v=oP6Zd5NFGnU
+- https://www.youtube.com/watch?v=qy1_jV1fgJU 
+- https://www.youtube.com/watch?v=oP6Zd5NFGnU
 
 ## Configure Pihole
 
