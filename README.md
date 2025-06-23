@@ -159,6 +159,12 @@ You can also directly access shares using URLs like smb://servername/share or sm
 
 -- non lo so fare funzionare, in caso disinstalla
 
+Da testare
+
+https://filebrowser.org/installation
+
+se funziona eliminare quello di sopra
+
 ## Comandi utili
 
 Check per recuperare ip raspberry al primo avvio:
