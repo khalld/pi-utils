@@ -165,6 +165,10 @@ https://filebrowser.org/installation
 
 se funziona eliminare quello di sopra
 
+## NGIX - WIP
+
+### Testing NGIX with a simple node.js microservice
+
 ## Comandi utili
 
 Check per recuperare ip raspberry al primo avvio:
