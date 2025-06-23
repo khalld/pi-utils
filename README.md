@@ -131,12 +131,33 @@ https://github.com/nvm-sh/nvm
 
 ## Visualizzatore di immagini da terminale - WIP
 
-WIP
+WIP - da eliminare se eventualmente non funziona
 
 
 ```bash
 sxiv -v
 ```
+
+## Jellyfin - WIP
+
+```
+curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash
+```
+
+Reference:
+- https://jellyfin.org/docs/general/installation/linux#debian--ubuntu-and-derivatives
+
+## File manager - WIP
+
+installato filemanager 
+
+   sudo apt install pcmanfm
+
+   pcmanfm
+
+You can also directly access shares using URLs like smb://servername/share or smb://xxx.xxx.xxx.xxx/share. 
+
+-- non lo so fare funzionare, in caso disinstalla
 
 ## Comandi utili
 
