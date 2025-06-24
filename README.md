@@ -103,6 +103,10 @@ pivpn -qr
 
 Documentazione wireguard: https://docs.pi-hole.net/guides/vpn/wireguard/server/
 
+### Bonus track: secure using HTTPS
+
+WIP
+
 ## Port forwarding sul router
 
 Modello di riferimento del router: EG8145X6
@@ -128,6 +132,8 @@ WIP
 Vista le limitazioni del Raspberry Pi Zero 2W, si consiglia di utilizzare nodejs.
 
 https://github.com/nvm-sh/nvm
+
+### Manage Telegram bot
 
 ## Visualizzatore di immagini da terminale - WIP
 
