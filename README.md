@@ -175,6 +175,10 @@ se funziona eliminare quello di sopra
 
 ### Testing NGIX with a simple node.js microservice
 
+## Interact with Alexa 
+
+WIP
+
 ## Comandi utili
 
 Check per recuperare ip raspberry al primo avvio:
