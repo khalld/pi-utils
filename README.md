@@ -103,6 +103,10 @@ pivpn -qr
 
 Documentazione wireguard: https://docs.pi-hole.net/guides/vpn/wireguard/server/
 
+### Problema noto
+
+WIP: Wireguard al reboot del raspberry non funziona piu'. Da risolvere asap 
+
 ### Bonus track: secure using HTTPS
 
 WIP
