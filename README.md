@@ -105,7 +105,7 @@ Documentazione wireguard: https://docs.pi-hole.net/guides/vpn/wireguard/server/
 
 ### Problema noto
 
-WIP: Wireguard al reboot del raspberry non funziona piu'. Da risolvere asap 
+WIP: Wireguard al reboot del raspberry non funziona piu'. Da risolvere asap e scrivere come risolto. Ultima volta avevo disinstallato wireguard e rifatta configurazione
 
 ### Bonus track: secure using HTTPS
 
