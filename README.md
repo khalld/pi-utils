@@ -133,6 +133,10 @@ sudo usermod -aG docker $USER
 
 uscire e ricollegarsi
 
+TIP: non è assolutamente consigliato. ho provato ad installare owncloud con docker ma una volta clonato il tutto il sistema si freeza. da testare con semplici immagini node per capire cosa si potrebbe fare. all'avvenuta installazione sono stato costretto a riavviare manualmente il pi, accedere immediatamente in ssh e bloccare il service di docker per riprendere ad utilizzarlo
+
+sudo systemctl stop docker
+sudo systemctl stop docker.socket
 ## Configurazione ownCloud
 
 WIP
