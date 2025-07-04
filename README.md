@@ -127,6 +127,23 @@ Configurazione port forwarding della porta scelta allo step precedente (esempio 
 
 WIP
 
+wget https://download.owncloud.com/server/stable/owncloud-complete-latest.tar.bz2
+wget https://download.owncloud.com/server/stable/owncloud-complete-latest.tar.bz2.md5
+sudo md5sum -c owncloud-complete-latest.tar.bz2.md5 < owncloud-complete-latest.tar.bz2
+tar -xjf owncloud-complete-latest.tar.bz2
+cp -r owncloud /var/www
+
+cd /var/www/owncloud/
+sudo -u www-data ./occ maintenance:install \
+   --database "mysql" \
+   --database-name "owncloud" \
+   --database-user "root"\
+   --database-pass "password" \
+   --admin-user "admin" \
+   --admin-pass "password"
+
+arrivato qui e nn funziona nulla, mi sa che conviene reinstallare docker
+
 ## Improve security accessing SSH
 
 WIP
