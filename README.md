@@ -123,6 +123,10 @@ Configurazione port forwarding della porta scelta allo step precedente (esempio 
 
 ![alt text](<imgs/Pasted Graphic 1-1.png>)
 
+## Docker - WIP / PT in corso
+
+Guida installazione: https://docs.docker.com/engine/install/ubuntu/
+
 ## Configurazione ownCloud
 
 WIP
