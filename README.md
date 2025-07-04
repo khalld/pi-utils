@@ -127,6 +127,12 @@ Configurazione port forwarding della porta scelta allo step precedente (esempio 
 
 Guida installazione: https://docs.docker.com/engine/install/ubuntu/
 
+Risoluzione problematica x utilizzo comandi docker solo con sudo 
+
+sudo usermod -aG docker $USER
+
+uscire e ricollegarsi
+
 ## Configurazione ownCloud
 
 WIP
